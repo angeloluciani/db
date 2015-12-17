@@ -1,0 +1,13 @@
+# tnsnames.ora Network Configuration File
+
+# WINDOW PATH C:\Prog\oracle\product\12.1.0\dbhome_1\network\admin\tnsnames.ora
+# LINUX  PATH /u01/app/oracle/product/12.1.0/dbhome_1/network/admin/tnsnames.ora
+
+<SID NAME> =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = <PORT NUMBER>))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = <SID NAME>)
+    )
+  )
