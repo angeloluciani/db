@@ -1,5 +1,8 @@
 Connect as SYSTEM.
 
+grant IMP_FULL_DATABASE to xdm;
+
+
 CREATE USER username IDENTIFIED BY apassword;
 
 GRANT CONNECT TO username;
